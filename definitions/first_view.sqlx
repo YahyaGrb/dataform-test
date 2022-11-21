@@ -13,4 +13,7 @@ config {
 
 -- The rest of a SQLX file contains your SELECT statement used to create the table.
 
-SELECT 2 as test
+CREATE OF REPLACE TABLE 
+    `test-1587652642378.staging.test_table` 
+AS
+    SELECT 1 AS test_col
